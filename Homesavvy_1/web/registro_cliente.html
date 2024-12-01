@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/registro_cliente.css">
+    <link rel="shortcut icon" href="recursos/corazonh.png">
+    <title>Documentos Requeridos</title>
+</head>
+<body>
+    <div class="body">
+        <div class="hosa">
+            <div class="text_logo">
+                HOMESAVVY
+            </div>
+            <div class="cliente">
+                CLIENTE
+            </div>
+        </div>
+        <div class="docs">
+            <div class="inst">
+                Ingrese sus Documentos
+            </div>
+            <div class="registro">
+                <form action="jsp/Alta.jsp" method="post">
+                    <div class="campos">
+                        <input type="text" name="nombre" placeholder="Nombre*" class="cam_dis" required pattern="[A-Za-záéíóúÁÉÍÓÚñÑ\s]+" title="El nombre solo puede contener nombres y Letras">
+                        <input type="text" name="apellido_paterno" placeholder="Apellido Paterno*" class="cam_dis" required pattern="[A-Za-záéíóúÁÉÍÓÚñÑ\s]+" title="El apellido solo puede contener letras">
+                        <input type="text" name="apellido_materno" placeholder="Apellido Materno*" class="cam_dis" required pattern="[A-Za-záéíóúÁÉÍÓÚñÑ\s]+" title="El apellido solo puede contener letras">
+                        <input type="text" name="direccion" placeholder="Dirección*" class="cam_dis" required pattern="^[a-zA-Z0-9\s,]*$" title="Ingresa una dirección válida" minlength="10" maxlength="100">
+                        <input type="tel" name="telefono" placeholder="Número Telefónico* Ej. 55-1234-5678" class="cam_dis" required pattern="^\d{2}-\d{4}-\d{4}$">
+                        <input type="email" name="correo" placeholder="Correo Electrónico*" class="cam_dis" required>
+                        <input type="password" name="contrasena" placeholder="Contraseña*" class="cam_dis" required>
+                    </div>
+                    <div class="campos2">
+                        <p>Agrega tu foto</p>
+                        <input type="file" class="archivo" required>
+                        <p>Requisitos de Foto</p>
+                        <li>Cara Completa</li>
+                        <li>Fondo Blanco</li>
+                        <li>Foto sin filtros y stickers</li>
+                        <input type="submit" value="Siguiente" class="enviar">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

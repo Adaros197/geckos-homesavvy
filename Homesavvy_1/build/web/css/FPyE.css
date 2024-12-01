@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('../recursos/fondo_empresa.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.general {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin: 5%;
+}
+
+.rectan1, .rectan2, .rectan3 {
+    width: 30%;
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.rectan1 {
+    background-color: #ABEBC6; 
+}
+
+.rectan2 {
+    background-color: #AED6F1; 
+}
+
+.rectan3 {
+    background-color: #76D7C4; 
+}
+
+h1 {
+    font-size: 45px; 
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: title;
+    
+}
+
+p, li {
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+ul, ol {
+    padding-left: 20px;
+    margin-bottom: 20px;
+    font-family: texto;
+    text-align: justify;
+}
+ol li {
+    font-family: texto;
+    text-align: justify;
+}
+
+.imagen-abajo, .imagen-arriba, .imagen-derecha {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 30px;
+}
+
+p{
+    font-family: texto;
+    text-align: justify;
+}
+
+@media (max-width: 768px) {
+    .general {
+        flex-direction: column; 
+    }
+
+    .rectan1, .rectan2, .rectan3 {
+        width: 100%; 
+        margin-bottom: 20px;
+    }
+}
+
+.boton-regresar {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    font-family: title;
+}
+
+.boton-regresar:hover {
+    background-color: #2980b9;
+}
+
+@font-face {
+    font-family: title;
+    src: url(title.ttf);
+}
+@font-face {
+    font-family: texto;
+    src: url(texto.ttf);
+}

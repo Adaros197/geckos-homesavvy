@@ -1,0 +1,351 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+nav{
+    background-color: white;
+    height: 80px;
+    width: 100%;
+}
+
+.enlace{
+    position: absolute;
+    padding: 15px 50px;
+}
+
+.logo{
+    height: 55px;
+}
+
+nav ul{
+    float:right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px ;
+}
+nav ul li a{
+    color: #fff;
+    padding: 7px 13px;
+    border-radius: 6px;
+    font-family: title;
+    font-size: 14px;
+}
+
+li a.active, li a:hover{
+    background: #962DFF;
+    transition: .5s;
+    
+}
+
+li a:hover{
+    color: #fff ;
+}
+
+.fondo{
+    position: relative;
+    background: url(../recursos/fondo_homesavvy.png);
+    background-size: cover;
+    background-position: center center;
+    height: 3500px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.text1{
+    padding: 100px 10%;
+    font-family: title;
+    font-size: 60px;
+    
+    position: absolute;
+    color: #fff;
+}
+
+.text2{
+    margin: 230px 0 0 250px;
+    height: 20px;
+    width: 500px;
+    font-family: texto;
+    color: #fff;
+    text-align: justify;
+    position: absolute;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.casa{
+    margin: 80px 1150px;
+    height: 550px;
+    position: absolute;
+    display: inline-block;
+}
+
+.boton-regis{
+    position: absolute;
+    margin: 480px 10%;
+    border-style:solid;
+    border-color: #19C3FF;
+    background-color: #fff;
+    border-radius: 7px;
+    padding: 3px 10px 3px 10px ;
+    font-family: title;
+    font-size: 20px;
+    color: #19C3FF;
+}
+
+.boton-regis:hover{
+    color: #fff;
+    background-color: #19C3FF;
+    transition: .4s;
+    border-color: #fff;
+}
+
+.sub1{
+    font-family: title;
+    font-size: 24px;
+    margin: 600px 0 0 630px;
+    position: absolute;
+    font-size: 40px;
+    color: #fff;
+}
+
+.plomeria{
+    width: 300px;
+    margin: 700px 0 0 400px;
+    border-radius: 10px;
+    position: absolute;
+}
+.jardineria{
+    width: 300px;
+    margin: 700px 0 0 800px;
+    border-radius: 10px;
+    position: absolute;
+
+}
+
+.mantenimientop{
+    width: 300px;
+    margin: 700px 0 0 1200px;
+    border-radius: 10px;
+    position: absolute;
+}
+
+.trab_plo {
+    margin: 1000px 0 0 0;
+    padding: 0 120px 0 500px;
+    display: inline-block;
+    font-family: title;
+    font-size: 24px;
+    position: absolute;
+    color: #fff;
+}
+.trab_jar{
+    margin: 1000px 0 0 0;
+    padding: 0 120px 0 890px;
+    display: inline-block;
+    font-family: title;
+    font-size: 24px;
+    position: absolute;
+    color: #fff;
+}
+.trab_man{
+    margin: 1000px 0 0 0;
+    padding: 0 120px 0 1190px;
+    display: inline-block;
+    font-family: title;
+    font-size: 24px;
+    position: absolute;
+    color: #fff;
+}
+
+
+
+.informacion{
+    margin: 1100px 300px 0 300px;
+    position: absolute;
+    text-align: center;
+    font-family: texto;
+    color: #fff;
+    font-size: 20px;
+}
+
+.informacion a{
+    color:#0070C0;
+    font-weight: bold;
+}
+
+.informacion a:hover{
+    font-weight: bold;
+    transition: .5s;
+    color:#19C3FF;
+    text-decoration:underline;
+}
+
+.seg_inf{
+    border-radius: 10px;
+    margin: 1300px 0 0 350px;
+    border-radius: 10px;
+    
+}
+
+.seg_text{
+    margin: 50px 300px 0 300px;
+    font-family: texto;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    
+}
+
+.pie{
+    position: absolute;
+    height: 200px;
+    width: 100%;
+    
+}
+.copyright{
+    margin: 170px 0 0 1700px;
+    font-family: title;
+    position: absolute;
+}
+
+.logo_home_pie{
+    position: absolute;
+    height: 55px;
+    margin: 10px;
+}
+
+.menu_pie{
+    position: absolute;
+    margin: 65px 0 0 15px;
+    font-family: title;
+    font-weight: bold;
+    font-size: 24px;
+
+}
+
+.menu_pie a{
+    color: #19C3FF;
+}
+
+.menu_pie a:hover{
+    background-color: #19C3FF;
+    color: #fff;
+    transition:
+    width 2s,
+    height 2s,
+    background-color 2s,
+    rotate 2s;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+.facebook{
+    position: absolute;
+    width: 30px;
+    margin: 10px 0 10px 1600px;
+    
+}
+
+
+.instagram{
+    position: absolute;
+    width: 29px;
+    margin: 9px 0 10px 1700px;
+}
+
+.tiktok{
+    position: absolute;
+    width: 25px;
+    margin: 10px 0 10px 1800px;
+}
+
+.text_follow{
+    position: absolute;
+    font-family: title;
+    font-size: 10px;
+    margin: 50px 0 0 1605px;
+    text-align: center;
+}
+
+.ilust{
+    font-family: title;
+    font-size: 180px;
+    margin: 100px 0 0 420px;
+    color: #2d3eff;
+    animation: mover_izquierda 2s;
+    animation-fill-mode:forwards;
+    animation-timing-function:ease-in;
+}
+
+.ilust_text{
+    position: absolute;
+    text-align: center;
+    margin: 50px 300px 0 300px;
+    font-size: 20px;
+    color: #fff;
+    font-family: texto;
+    
+}
+
+
+.video_principal{
+    position: absolute;
+    margin: 300px 0 0 550px;
+    width: 800px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.fondo_video{
+    position: absolute;
+    margin: 280px 0 0 0;
+    background-color: #fff;
+    width: 100%;
+    height: 490px;
+    display: inline-block;
+}
+
+.video_info{
+    position: absolute;
+    margin: 800px 0 0 660px;
+    font-family: title;
+    font-size: 50px;
+    color: #fff;
+}
+
+.text_infovideo{
+    position: absolute;
+    margin: 950px 300px 0 300px;
+    font-family: texto;
+    color: #fff;
+    text-align: center;
+    font-size: 26px;
+    
+}
+
+@font-face {
+    font-family:title;
+    src: url(title.ttf);
+}
+@font-face {
+    font-family:texto;
+    src: url(texto.ttf);
+}
+
+@keyframes mover_izquierda {
+    from {
+        transform: translateX(-400px);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+

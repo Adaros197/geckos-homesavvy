@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('../recursos/fondo_empresa.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body, html {
+    height: 100%;
+}
+
+.general {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    
+}
+
+.cuadrado {
+    width: 60%;
+    position: relative;
+    
+   
+}
+
+.cuadrado h1 {
+    text-align: center;
+    font-size: 46px; 
+    margin-top: 20px; 
+}
+
+.cuadrado img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 45px;
+}
+
+.boton-regresar {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    font-family: title;
+}
+
+h1{
+    font-family: title;
+    color: #fff;
+}
+
+.boton-regresar:hover {
+    background-color: #2980b9;
+}
+
+@font-face {
+    font-family: texto;
+    src: url(texto.ttf);
+}
+@font-face {
+    font-family: title;
+    src: url(title.ttf);
+}

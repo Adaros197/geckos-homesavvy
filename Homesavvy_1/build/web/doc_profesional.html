@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/doc_profesional.css">
+    <link rel="shortcut icon" href="css/corazonh.png" />
+    <title>Documentos Requeridos</title>
+</head>
+<body>
+    <div class="body">
+        <div class="hosa">
+            <div class="text_logo">
+                HOMESAVVY
+            </div>
+            <div class="cliente">
+               EXPERTO
+            </div>
+        </div>
+        <div class="docs">
+            <div class="inst">
+                Ingrese sus documentos
+            </div>
+            <div class="arch_ine">
+                <p>INE</p>
+                <div class="divs"> 
+                <form action="" class="arch">
+                    <input type="file" accept=".pdf">
+                </form>
+            </div>
+            </div>
+            <div class="arch_com">
+                <p>Comprobante de Domicilio</p>
+                <div class="divs"> 
+                <form action="" class="arch">
+                    <input type="file" accept=".pdf">
+                </form>
+            </div>
+            </div>
+            <div class="arch_other">
+                <p>Antecedentes no penales</p>
+                <div class="divs"> 
+                <form action="" class="arch">
+                    <input type="file" accept=".pdf">
+                </form>
+                </div>
+            </div>
+            <div class="arch_other">
+                <p>Constancia de situación fiscal</p>
+                <div class="divs"> 
+                <form action="" class="arch">
+                    <input type="file" accept=".pdf">
+                </form>
+                </div>
+            </div>
+            <div class="arch_other">
+                <p>Currículum Vitae</p>
+                <div class="divs"> 
+                <form action="" class="arch">
+                    <input type="file" accept=".pdf">
+                </form>
+                </div>
+            </div>
+            <div class="requisitos">
+                *Todo documento debe estar escaneado y se debe subir como archivo PDF.
+            </div>
+            <button type="submit" class="btn-siguiente" id="btn-siguiente">Crear Cuenta</button>
+        </div>
+    </div>
+</body>
+<script>
+    document.getElementById("btn-siguiente").addEventListener("click", function() {
+        window.location.href = "../../validacion_datos_experto/principal/index.html";
+    });
+</script>
+</html>

@@ -1,0 +1,173 @@
+/* Estilos generales */
+body {
+    font-family: title;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    overflow-x: hidden; /* Evita el desplazamiento horizontal */
+}
+
+header {
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    box-sizing: border-box; /* Añadido para incluir padding y border en el ancho total */
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#logo img {
+    height: 50px;
+}
+
+nav {
+    flex: 1;
+    display: flex;
+    justify-content: center; /* Centra el menú de navegación */
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 5px;
+}
+
+nav ul li a:hover, li a.active {
+    background-color: #962DFF;
+    color: #fff;
+    border-radius: 10px;
+    transition: .5s;
+}
+
+#perfil {
+    display: flex;
+    align-items: center;
+}
+
+#perfil a {
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 15px;
+}
+
+#perfil a:hover {
+    background-color: #6a1b9a;
+    color: #fff;
+    border-radius: 10px;
+    transition: .5s;
+}
+
+main {
+    padding: 20px;
+    background-image: url(../recursos/fondo_homesavvy.png); /* Reemplaza 'your-background-image.jpg' con la ruta de tu imagen */
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    margin-top: 70px; /* Compensa la altura del header */
+    overflow-y: auto; /* Habilita el desplazamiento vertical */
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-clip: padding-box; /* Asegura que el border-radius se vea */
+}
+
+h1 {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Estilos específicos para la tabla */
+.table-container {
+    overflow-x: auto;
+    margin: 0 auto;
+    background: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    max-width: 90%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #962DFF;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
+/* Estilos para formularios y botones */
+form {
+    margin-bottom: 20px;
+}
+
+button {
+    font-family: title;
+    background-color: #6a1b9a;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4a148c;
+    transition: .5s;
+}
+
+/* Estilos para el estado de la tabla vacía */
+.table-container .no-data {
+    text-align: center;
+    font-size: 16px;
+    color: #666;
+}
+
+@font-face {
+    font-family: title;
+    src: url(title.ttf);
+}
+
+@font-face {
+    font-family: texto;
+    src: url(texto.ttf);
+}

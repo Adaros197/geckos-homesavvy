@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/registro_profesional.css">
+    <link rel="shortcut icon" href="css/corazonh.png" />
+    <title>Registro</title>
+</head>
+<body>
+    <div class="body">
+        <div class="hosa">
+            <div class="text_logo">
+                HOMESAVVY
+            </div>
+            <div class="cliente">
+                EXPERTO
+            </div>
+        </div>
+        <div class="docs">
+            <div class="inst">
+                Ingrese sus documentos
+            </div>
+            <form action="" class="registro-form" id="formulario">
+                <div class="input-group">
+                    <input type="text" id="nombre" name="nombre" placeholder="Nombre " pattern="[A-Za-z ]+" title="Solo se permiten letras y espacios" required>
+                    <input type="text" id="nombre" name="nombre" placeholder="Apellido Paterno" pattern="[A-Za-z ]+" title="Solo se permiten letras y espacios" required>
+                    <input type="text" id="nombre" name="nombre" placeholder="Apellido Materno" pattern="[A-Za-z ]+" title="Solo se permiten letras y espacios" required>
+                    <input type="text" id="direccion" name="direccion" placeholder="Dirección" pattern="[A-Za-z0-9 ]+" title="Solo se permiten letras, números y espacios" required>
+                    <input type="text" id="codigo_postal" name="codigo_postal" placeholder="Código Postal" pattern="[0-9]{5}" title="El código postal debe tener 5 dígitos numéricos" required>
+                    <input type="tel" id="telefono" name="telefono" placeholder="Número Telefónico" pattern="[0-9]+" title="Solo se permiten números" required>
+                    <input type="email" id="correo" name="correo" placeholder="Correo Electrónico" required>
+                    <input type="password" id="contraseña" name="contraseña" placeholder="Contraseña" required>
+                    <input type="text" id="rfc" name="rfc" placeholder="RFC" pattern="[A-Za-z0-9]+" title="El RFC debe contener letras y números" required>
+                    <select id="profesion" name="profesion" required>
+                        <option value="" disabled selected>Seleccione una opción</option>
+                        <option value="plomero">Plomero</option>
+                        <option value="electricista">Electricista</option>
+                        <option value="pintor">Pintor</option>
+                        <option value="jardinero">Jardinero</option>
+                        <option value="limpieza">Servicio de limpieza</option>
+                        <option value="otros">Otro</option>
+                    </select>
+                    <input type="text" id="otra_profesion" name="otra_profesion" placeholder="Especifique otra profesión">
+                </div>
+                <div class="recomendación">
+
+                    <p>Agrega tres cartas de recomendación</p>
+
+                    <input type="file" id="recomendacion" name="recomendacion1" accept=".pdf,.doc,.docx" required>
+                </div>
+                
+                <div class="requisitos">
+                    <p>Agrega una foto</p>
+
+                    <input type="file" id="foto" name="foto" accept="image/*" required>
+                    <p>Requisitos para la foto:</p>
+                    <ul>
+                        <li>Cara completa</li>
+                        <li>Fondo blanco</li>
+                        <li>Foto sin filtros o stickers</li>
+                    </ul>
+                </div>
+                <button type="submit" class="btn-siguiente">Siguiente</button>              
+            </form>
+        </div>
+    </div>
+</body>
+<script>
+    document.getElementById("formulario").addEventListener("submit", function(event) {
+        event.preventDefault();
+        window.location.href = "../../ingrese_datos_experto/principal/index2.html";
+    });
+</script>
+</html>

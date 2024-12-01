@@ -1,0 +1,115 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: white;
+    height: 80px;
+    width: 100%;
+}
+
+.enlace {
+    position: absolute;
+    padding: 15px 50px;
+}
+
+.logo {
+    height: 55px;
+}
+
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a {
+    color: black;
+    padding: 7px 13px;
+    border-radius: 6px;
+    font-family: title;
+    font-size: 14px;
+}
+
+li a.active, li a:hover {
+    background-color: #4169ED;
+    color: #fff;
+    transition: .5s;
+}
+
+.fondo {
+    position: relative;
+    background: url(../recursos/fondo_geckos.png);
+    background-size: cover;
+    background-position: center center;
+    height: calc(100vh - 80px);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.text-contenedor {
+    position: absolute;
+    left: 50px; 
+    top: 50%;
+    transform: translateY(-50%);
+    max-width: 900px; 
+}
+
+.text1 {
+    margin: 60px 0 0 0; 
+    font-family: title;
+    font-size: 80px; 
+    color: #fff;
+}
+
+.text2 {
+    margin: 30px 0 0 0; 
+    font-family: texto;
+    color: #fff;
+    font-size: 27px; 
+    font-weight: 600;
+    text-align: justify;
+}
+
+.front {
+    position: absolute;
+    right: 50px; 
+    top: 50%;
+    transform: translateY(-50%);
+    width: 800px; 
+    border-radius: 10px; }
+
+.subtexto {
+    display: inline-block;
+    font-size: 14px;
+    color: #777;
+    margin-top: 0;
+    font-family: texto;
+}
+
+
+.geckos{
+    position: absolute;
+    margin: 10px 0 0 5px;
+    font-family: title;
+    font-size: 20px;
+    color: #000;
+}
+
+@font-face {
+    font-family: title;
+    src: url(title.ttf);
+}
+@font-face {
+    font-family: texto;
+    src: url(texto.ttf);
+}

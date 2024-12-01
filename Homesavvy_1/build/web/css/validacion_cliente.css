@@ -1,0 +1,96 @@
+.body{
+    width: 150vh;
+    height: 50vh;
+    background-color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+    position: relative;
+    border-style: none;
+    border-width: 5px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 1px #962DFF;
+}
+
+.hosa {
+    position: absolute;
+    width: 30%;
+    height: 50vh;
+    background-color: #962DFF ;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.text_logo{
+    padding: 0%;
+    margin-top: 20vh;
+    text-align: center;
+    font-family: title;
+    font-size: 50px;
+    color: #fff;
+    padding: 0;
+}
+.cliente{
+    font-family: title;
+    text-align: center;
+    color: #fff;
+    padding: 0%;
+    font-size: 20px;
+}
+
+
+.text_val{
+    background-color: #fff;
+    width: 70%;
+    height: 50vh;
+    margin-left: calc(100% - 70%);
+    border-radius: 10px;
+    position: static;
+}
+
+.val{
+    font-family: title;
+    text-align: center;
+    font-size: 50px;
+}
+
+.mensaje{
+    margin-top: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    font-family: texto;
+    font-size: 25px;
+}
+
+.aceptar{
+    margin: 40px;
+    text-align: center;
+    
+}
+
+.aceptar .button1 {
+    text-decoration: none;
+    font-family: title;
+    color: #fff;
+    background-color: #962DFF;
+    padding: 5px 10px 5px 10px;
+    border-radius: 10px;
+    font-size: 25px;
+}
+
+.button1:hover {
+    background-color: #7724D1;
+    color: #fff;
+    transition: .5s;
+}
+
+@font-face {
+    font-family: title;
+    src: url(title.ttf);
+}
+
+@font-face {
+    font-family: texto;
+    src: url(texto.ttf);
+}

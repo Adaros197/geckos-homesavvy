@@ -1,0 +1,132 @@
+.body {
+    width: 150vh;
+    height: 50vh;
+    background-color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+    position: relative;
+    border-style: none;
+    border-width: 5px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 1px #2980B9;
+}
+
+.btn-siguiente {
+    background-color: #2980B9;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    position: absolute;
+    left: 60%;
+    bottom: 20px;
+    transform: translateX(-50%);
+}
+
+.hosa {
+    position: absolute;
+    width: 30%;
+    height: 50vh;
+    background-color:#2980B9 ;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    overflow: hidden; 
+}
+
+.text_logo {
+    padding: 0%;
+    margin-top: 20vh;
+    text-align: center;
+    font-family: title;
+    font-size: 50px;
+    color: #fff;
+    padding: 0;
+}
+
+.cliente {
+    font-family: title;
+    text-align: center;
+    color: #fff;
+    padding: 0%;
+    font-size: 20px;
+}
+
+.docs {
+    background-color: #fff;
+    width: 70%;
+    height: 50vh;
+    margin-left: calc(100% - 70%);
+    border-radius: 10px;
+    position: static;
+}
+
+.inst {
+    font-family: title;
+    text-align: center;
+    font-size: 50px;
+}
+
+.arch_ine,
+.arch_com,
+.arch_other {
+    width: 50%;
+    height: 10vh;
+    position: static;
+    font-family: title;
+    font-size: 18px;
+    text-align: center;
+    float: left; 
+    
+}
+
+.arch_other:nth-child(odd) {
+    margin-left: 0;
+    
+}
+
+.arch_other:nth-child(even) {
+    margin-left: 0;
+    
+}
+
+.divs{
+    width: 80%;
+    padding: 10px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    border: 1px solid #2980B9;
+    background-color: #2980B9;
+    color: #fff;
+    margin-left: 60px;
+    
+}
+
+.divs p {
+    font-family: texto;
+}
+
+.requisitos {
+    color: #000000;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 250px;
+    font-family: title;
+}
+
+@font-face {
+    font-family: title;
+    src: url(title.ttf);
+}
+
+@font-face {
+    font-family: texto;
+    src: url(texto.ttf);
+}
+
+.btn-siguiente:hover {
+    background-color: #3fc3d4;
+}

@@ -1,0 +1,161 @@
+.body {
+    width: 150vh;
+    height: 55vh;
+    background-color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+    position: relative;
+    border-style: none;
+    border-width: 5px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 1px #962DFF;
+}
+
+.hosa {
+    position: absolute;
+    width: 30%;
+    height: 100%;
+    background-color: #962DFF;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.text_logo {
+    padding: 0%;
+    margin-top: 24vh;
+    text-align: center;
+    font-family: title;
+    font-size: 5vh;
+    color: #fff;
+    padding: 0;
+}
+
+.cliente {
+    font-family: title;
+    text-align: center;
+    color: #fff;
+    padding: 0%;
+    font-size: 2vh;
+}
+
+.docs {
+    width: 70%;
+    height: 100%;
+    background-color: #fff;
+    position: absolute;
+    margin-left: 30%;
+    border-radius: 10px;
+}
+
+.inst {
+    font-family: title;
+    text-align: center;
+    font-size: 5vh;
+    position: static;
+    padding: 5px 0;
+    height: 8vh;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.registro {
+    width: 100%;
+    height: 45vh;
+    position: static;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.campos {
+    background-color: #fff;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    float: left;
+}
+
+.cam_dis {
+    margin-top: 10px;
+    padding: 10px;
+    font-family: texto;
+    font-weight: 800;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #962DFF;
+    font-size: 14px;
+    width: calc(100% - 22px);
+    box-sizing: border-box;
+}
+
+.cam_dis:focus {
+    outline: none;
+    border-style: solid;
+    border-color: #7227bd;
+    transition: .4s;
+}
+
+.campos2 {
+    width: 50%;
+    height: 100%;
+    background-color: #fff;
+    float: right;
+    text-align: center;
+}
+
+.campos2 p {
+    font-family: title;
+    font-size: 18px;
+}
+
+.archivo {
+    font-family: title;
+    background-color: #962DFF;
+    padding: 10px;
+    color: #fff;
+    border-radius: 10px;
+    width: calc(100% - 20px);
+    box-sizing: border-box;
+}
+
+.archivo:hover {
+    background-color: #7227bd;
+    transition: .4s;
+}
+
+li {
+    margin-top: 0;
+    text-align: justify;
+    margin-left: 10vh;
+    font-family: texto;
+    font-size: 14px;
+}
+
+.enviar {
+    margin-top: 10px;
+    font-family: title;
+    font-size: 20px;
+    background-color: #962DFF;
+    border-style: none;
+    border-radius: 10px;
+    color: #fff;
+    padding: 10px 20px;
+    width: calc(100% - 40px);
+    box-sizing: border-box;
+}
+
+.enviar:hover {
+    background-color: #7227bd;
+    transition: .4s;
+}
+
+@font-face {
+    font-family: title;
+    src: url(title.ttf);
+}
+
+@font-face {
+    font-family: texto;
+    src: url(texto.ttf);
+}

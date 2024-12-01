@@ -1,0 +1,180 @@
+body {
+    font-family: title;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    overflow-x: hidden; /* Evita el desplazamiento horizontal */
+}
+
+header {
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    box-sizing: border-box; /* Añadido para incluir padding y border en el ancho total */
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#logo img {
+    height: 50px;
+}
+
+nav {
+    flex: 1;
+    display: flex;
+    justify-content: center; /* Centra el menú de navegación */
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 5px;
+}
+
+nav ul li a:hover {
+    background-color: #962DFF;
+    color: #fff;
+    border-radius: 10px;
+    transition: .5s;
+}
+
+li a.active, li a:hover{
+    background: #962DFF;
+    transition: .5s;
+    border-radius: 10px;
+    color: #fff;
+}
+
+#perfil {
+    display: flex;
+    align-items: center;
+}
+
+#perfil a {
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 15px;
+}
+
+#perfil a:hover{
+    background-color: #6a1b9a;
+    color: #fff;
+    border-radius: 10px;
+    transition: .5s;
+}
+
+main {
+    padding: 20px;
+    background-image: url(../recursos/fondo_homesavvy.png); /* Reemplaza 'your-background-image.jpg' con la ruta de tu imagen */
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    margin-top: 70px; /* Compensa la altura del header */
+    overflow-y: auto; /* Habilita el desplazamiento vertical */
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-clip: padding-box; /* Asegura que el border-radius se vea */
+}
+
+h1 {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.form-container {
+    background: rgba(255, 255, 255, 0.8); /* Fondo blanco semi-transparente */
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-family: texto;
+    margin-bottom: 5px;
+}
+
+textarea, select, input[type="submit"] {
+    font-family: texto;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+}
+
+input[type="submit"] {
+    background-color: #962DFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.5s;
+}
+
+input[type="submit"]:hover {
+    background-color: #6a1b9a;
+}
+
+@font-face {
+    font-family: title;
+    src: url(title.ttf);
+}
+
+@font-face {
+    font-family: texto;
+    src: url(texto.ttf);
+}
+
+.logo_hs {
+    margin: 0;
+}
+
+.pedir {
+    background-color: #fff;
+    font-family: title;
+    border-style: solid;
+    border-color: #962DFF;
+    border-radius: 10px;
+    padding: 5px 20px;
+    font-size: 16px;
+    color: #962DFF;
+    margin-top: 5px;
+}
+
+.pedir:hover {
+    background-color: #962DFF;
+    color: #fff;
+    transition: .5s;
+}
+
+label{
+    font-family: title;
+}

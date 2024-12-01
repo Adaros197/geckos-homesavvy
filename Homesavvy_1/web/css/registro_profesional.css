@@ -1,0 +1,178 @@
+.body {
+    width: 150vh;
+    height: 200vh;
+    background-color: #fff;
+    margin: 200px auto;
+    position: relative;
+    border-style: none;
+    border-width: 5px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 1px #2980B9; 
+    font-family: texto; 
+}
+
+.btn-siguiente {
+    background-color: #2980B9;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    position: absolute;
+    left: 60%;
+    bottom: 20px;
+    transform: translateX(-50%);
+    font-family: title;
+}
+
+.hosa {
+    position: absolute;
+    width: 30%;
+    height: calc(100% - 10px); 
+    background-color: #2980B9;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    box-shadow: 0 0 20px 1px #2980B9; 
+}
+
+.text_logo {
+    margin-top: 20vh; 
+    text-align: center;
+    font-family: title;
+    font-size: 50px;
+    color: #fff;
+}
+
+.cliente {
+    font-family: title;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    position: absolute;
+    top: 60%; 
+    width: 100%;
+    transform: translateY(-50%); 
+}
+
+.docs {
+    background-color: #fff;
+    width: calc(70% - 20px); 
+    height: calc(100% - 40px);
+    margin-left: calc(30% + 3px); 
+    margin-top: 20px; 
+    border-radius: 10px;
+    position: relative;
+    padding: 20px;
+    box-shadow: 0 0 20px 1px #2980B9; 
+}
+
+.inst {
+    text-align: center;
+    font-family: title;
+    font-size: 50px;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.docs .input-group input,
+.docs .input-group select {
+    width: 40%;
+    height: 25px;
+    padding: 0.9px;
+    border-radius: 5px;
+    border: 1px solid #2980B9;
+    box-sizing: border-box;
+    margin-top: 0.6px;
+    position: relative; 
+    left: 55px;
+    font-family: texto;
+   
+}
+
+.recomendación {
+     margin-top: -400px; 
+    font-family: texto;
+     position: relative; 
+     left: 100px;
+    margin-left: 45%;
+}
+
+.recomendación p {
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-family: texto;
+}
+
+.docs .recomendación input[type="file"] {
+    width: 60%;
+    padding: 10px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    border: 1px solid #2980B9;
+    background-color: #2980B9;
+    color: #fff;
+    font-family: texto;
+}
+
+.requisitos {
+    margin-top: -10px; 
+    position: relative; 
+    left: 100px;
+     margin-left: 45%;
+     
+}
+
+.requisitos p {
+    font-weight: bold;
+    margin-bottom: 10px;
+    
+    
+}
+
+.docs .requisitos input[type="file"] {
+    width: 60%;
+    padding: 10px;
+    border-radius: 5px;
+  font-family: texto;
+    box-sizing: border-box;
+    border: 1px solid #2980B9;
+    background-color: #2980B9;
+    color: #fff;
+}
+
+.requisitos ul {
+    margin-top: 5px;
+    padding-left: 20px;
+}
+
+.requisitos li {
+    margin-bottom: 5px;
+}
+
+input[type="file"]::file-selector-button {
+    background-color: #ffffff;
+    color: rgb(12, 12, 12);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="file"]::file-selector-button:hover {
+    background-color: #f8fbfc;
+}
+
+@font-face {
+    font-family: title;
+    src: url(title.ttf);
+}
+
+@font-face {
+    font-family: texto;
+    src: url(texto.ttf);
+}

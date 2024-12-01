@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/login.css">
+    <title>Iniciar Sesión</title>
+    <link rel="shortcut icon" href="recursos/corazonh.png">
+</head>
+<body>
+    <div class="body">
+        <div class="hosa">
+            <div class="text_logo">
+                HOMESAVVY
+            </div>
+            <div class="geckos">
+                BY GECKOS
+            </div>
+        </div>
+        <div class="form">
+            <div class="logo">
+                <img src="recursos/corazonh.png" alt="logo HOMESAVVY" class="logo_image">
+            </div>
+            <div class="text_form">
+                <p class="hola">¡Hola!</p>
+                <p class="ingresa">Ingresa a tu cuenta</p>
+            </div>
+            <div class="body_form">
+                <form action="LoginServlet" method="post" class="formulario_for">
+                    <input type="email" name="email" placeholder="Ingresa tu email" class="input_text" required pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$">
+                    <br>
+                    <input type="password" name="contrasena" placeholder="Ingresa tu contraseña" class="input_text" required>
+                    <div class="res_cont">
+                        <p>¿No tienes una cuenta?<a href="tipo_cuenta.html" class="enlaces_form">Registrate</a></p>
+                        <p>¿Olvidaste tu contraseña?<a href="#" class="enlaces_form">Restaurala</a></p>
+                    </div>
+                    <input type="submit" value="Iniciar Sesión" class="enviar">
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
