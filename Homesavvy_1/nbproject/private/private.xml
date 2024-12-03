@@ -2,6 +2,33 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group/>
+        <group>
+            <file>file:/C:/Users/delia/OneDrive/Escritorio/geckos-homesavvy/Homesavvy_1/src/java/servlet/ActualizarPerfilProfesionalServlet.java</file>
+            <file>file:/C:/Users/delia/OneDrive/Escritorio/geckos-homesavvy/Homesavvy_1/web/recursos/corazonh.png</file>
+            <file>file:/C:/Users/delia/OneDrive/Escritorio/geckos-homesavvy/Homesavvy_1/src/java/servlet/ActualizarPerfilClienteServlet.java</file>
+            <file>file:/C:/Users/delia/OneDrive/Escritorio/geckos-homesavvy/Homesavvy_1/web/FPyE.html</file>
+            <file>file:/C:/Users/delia/OneDrive/Escritorio/geckos-homesavvy/Homesavvy_1/src/java/servlet/ActualizarSolicitudServicioServlet.java</file>
+            <file>file:/C:/Users/delia/OneDrive/Escritorio/geckos-homesavvy/Homesavvy_1/src/java/servlet/ActualizarSolicitudTrabajoServlet.java</file>
+            <file>file:/C:/Users/delia/OneDrive/Escritorio/geckos-homesavvy/Homesavvy_1/web/crud_solicitudes_trabajo.jsp</file>
+            <file>file:/C:/Users/delia/OneDrive/Escritorio/geckos-homesavvy/Homesavvy_1/web/recursos/fondo_empresa.jpg</file>
+            <file>file:/C:/Users/delia/OneDrive/Escritorio/geckos-homesavvy/Homesavvy_1/src/java/servlet/SubirSolicitudServicioServlet.java</file>
+            <file>file:/C:/Users/delia/OneDrive/Escritorio/geckos-homesavvy/Homesavvy_1/web/ver_solicitudes_trabajo.jsp</file>
+            <file>file:/C:/Users/delia/OneDrive/Escritorio/geckos-homesavvy/Homesavvy_1/web/ver_solicitudes_servicio.jsp</file>
+            <file>file:/C:/Users/delia/OneDrive/Escritorio/geckos-homesavvy/Homesavvy_1/web/recursos/tipo_cuenta/clasificacion.png</file>
+            <file>file:/C:/Users/delia/OneDrive/Escritorio/geckos-homesavvy/Homesavvy_1/web/validacion_profesional.html</file>
+            <file>file:/C:/Users/delia/OneDrive/Escritorio/geckos-homesavvy/Homesavvy_1/web/doc_cliente.html</file>
+            <file>file:/C:/Users/delia/OneDrive/Escritorio/geckos-homesavvy/Homesavvy_1/src/java/servlet/EliminarCuentaProfesionalServlet.java</file>
+            <file>file:/C:/Users/delia/OneDrive/Escritorio/geckos-homesavvy/Homesavvy_1/src/java/db/DBConnection.java</file>
+            <file>file:/C:/Users/delia/OneDrive/Escritorio/geckos-homesavvy/Homesavvy_1/web/jsp/Alta.jsp</file>
+            <file>file:/C:/Users/delia/OneDrive/Escritorio/geckos-homesavvy/Homesavvy_1/web/recursos/tipo_cuenta/experiencia.png</file>
+            <file>file:/C:/Users/delia/OneDrive/Escritorio/geckos-homesavvy/Homesavvy_1/src/java/servlet/EliminarSolicitudServicioServlet.java</file>
+            <file>file:/C:/Users/delia/OneDrive/Escritorio/geckos-homesavvy/Homesavvy_1/web/crud_perfil_profesional.jsp</file>
+            <file>file:/C:/Users/delia/OneDrive/Escritorio/geckos-homesavvy/Homesavvy_1/src/java/servlet/LoginServlet.java</file>
+            <file>file:/C:/Users/delia/OneDrive/Escritorio/geckos-homesavvy/Homesavvy_1/web/crud_perfil_cliente.jsp</file>
+            <file>file:/C:/Users/delia/OneDrive/Escritorio/geckos-homesavvy/Homesavvy_1/web/crud_solicitudes_servicios.jsp</file>
+            <file>file:/C:/Users/delia/OneDrive/Escritorio/geckos-homesavvy/Homesavvy_1/src/java/servlet/EliminarSolicitudTrabajoServlet.java</file>
+            <file>file:/C:/Users/delia/OneDrive/Escritorio/geckos-homesavvy/Homesavvy_1/src/java/servlet/EliminarCuentaClienteServlet.java</file>
+            <file>file:/C:/Users/delia/OneDrive/Escritorio/geckos-homesavvy/Homesavvy_1/src/java/servlet/SubirSolicitudTrabajoServlet.java</file>
+        </group>
     </open-files>
 </project-private>
